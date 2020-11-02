@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite" parallel="false">
+	<parameter name="url" value="http://live.demoguru99.com/index.php/backendlogin/" />
+	<listeners>
+		<listener class-name="commons.MethodListener"/>
+		<!-- Version 2 -->
+<!-- 		<listener class-name="reportConfig.ExtentReportListener2"/> -->
+		
+		<!-- Version 3 -->		
+<!-- 		<listener class-name="reportConfig.ExtentTestListener3"/> -->
+		
+		<!-- Version 4 -->	
+		<listener class-name="reportConfig.ExtentReportListener4"/>
+		//Dành cho TestNG Report
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<test name="Run on FireFox UI">
+		<parameter name="Browser" value="firefox_ui" />
+		<classes>
+			<class name="com.liveguru.users.Level_12_Apply_Log_Report_HTML" />
+		</classes>
+	</test>
+
+	<!-- <test name="Run on Chrome UI"> -->
+	<!-- <parameter name="Browser" value="chrome_ui" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Run on Firefox HEADLESS"> -->
+	<!-- <parameter name="Browser" value="firefox_headless" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Run on Chrome HEADLESS"> -->
+	<!-- <parameter name="Browser" value="chrome_headless" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Run on Edge Chromium"> -->
+	<!-- <parameter name="Browser" value="edge_chromium" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+</suite>

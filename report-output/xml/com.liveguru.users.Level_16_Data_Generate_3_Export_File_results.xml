@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on FireFox UI"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.299">
+  <properties />
+  
+  
+            <testcase name="TC_01_Register" time="11.299" classname="com.liveguru.users.Level_16_Data_Generate_3_Export_File" />
+      
+</testsuite>

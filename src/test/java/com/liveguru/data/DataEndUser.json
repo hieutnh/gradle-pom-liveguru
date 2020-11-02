@@ -1,0 +1,14 @@
+{
+	"Register": {
+		"firstName": "Automation",
+		"lastName": "Testing",
+		"email": "automation",
+		"passWord": "123123"
+	},
+	"Login": {
+	},
+	"firstName": "Automation",
+	"lastName": "Testing",
+	"email": "automation",
+	"passWord": "123123"
+}

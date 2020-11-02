@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite" parallel="false">
+	<parameter name="url" value="http://live.demoguru99.com/index.php/backendlogin/" />
+	<test name="Run on FireFox UI">
+		<parameter name="Browser" value="firefox_ui" />
+		<classes>
+			<class name="com.liveguru.users.Level_08_Data_Table" />
+		</classes>
+	</test>
+
+	<!-- <test name="Run on Chrome UI"> -->
+	<!-- <parameter name="Browser" value="chrome_ui" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Run on Firefox HEADLESS"> -->
+	<!-- <parameter name="Browser" value="firefox_headless" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Run on Chrome HEADLESS"> -->
+	<!-- <parameter name="Browser" value="chrome_headless" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Run on Edge Chromium"> -->
+	<!-- <parameter name="Browser" value="edge_chromium" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.nopcommerce.users.Level_04_Register_Login_Multiple_Browser" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite" parallel="tests" thread-cound="1">
+	<parameter name="url" value="http://live.demoguru99.com/" />
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentReportListener4" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<test name="Run on FireFox UI">
+		<parameter name="Browser" value="firefox_ui" />
+		<classes>
+			<class name="com.liveguru.users.Level_16_Data_Generate_3_Export_File" />
+		</classes>
+	</test>
+
+
+
+</suite>
